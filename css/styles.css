@@ -1,0 +1,169 @@
+/*
+* {
+  border: solid 1px red; 
+}
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/**********************************
+body and main div sizing
+***********************************/
+
+body {
+  font-family: sans-serif; 
+  margin: 0;
+  background-color: #e6e6e6;
+  }
+
+
+
+
+/**********************************
+header styling and navigation styling
+***********************************/
+
+h1 {
+  text-align: center; 
+}
+
+header ul {
+  list-style:none; 
+  text-align: center; 
+  padding-left: 0; 
+  
+}
+
+header li {
+  display: block; 
+  padding: 0; 
+  margin: 3% 3%; 
+  font-weight: bold; 
+}
+
+header a {
+  text-decoration: none; 
+  color: black; 
+  width: 100%;
+  height: 100%; 
+  background-color: white; 
+  display: inline-block;
+  padding: 2%; 
+}
+
+.header-paragraph {
+  text-align: left; 
+}
+
+header p {
+  text-align: center;
+  font-weight: lighter; 
+  
+}
+
+header img {
+  max-height: 100%; 
+  max-width: 100%;
+  padding: 10%; 
+  border-radius: 20% 20%;
+}
+
+/**********************************
+img gallery container styling
+***********************************/
+
+.container-section {
+  background-color: white; 
+  height: 100%; 
+  padding-bottom: 10%;
+}
+
+.container-gallery {
+  padding: 0 3% 2em;  
+}
+
+
+
+/**********************************
+section styling
+***********************************/
+
+section h2 {
+  text-align: center; 
+  padding-top: 10%;
+  font-size: 1.3em; 
+}
+
+.gallery-div {
+  height: 100%; 
+  vertical-align: top;
+  
+}
+
+
+section img {
+  max-height: 100%;
+  max-width: 100%;
+
+}
+
+section p {
+  text-align: center; 
+}
+
+.para-title {
+  font-weight: bold; 
+  
+}
+
+h3, footer p  {
+  text-align: center; 
+}
+
+footer span {
+  font-weight: 200;
+}
+
+/**********************************
+footer styling
+***********************************/
+
+footer {
+  padding-top: 10%; 
+  margin-bottom: 15%;
+}
+
+.bottom-nav {
+  border-top: solid 1px grey; 
+  margin: 0 3%;  
+}
+
+.bottom-nav nav {
+  display: none; 
+} 
+
+.bottom-nav h3 {
+  float: left; 
+}
+
+.bottom-nav h4 {
+  float: right; 
+}
+
+.bottom-nav a {
+  text-decoration: none; 
+  color: black; 
+}
+
+
