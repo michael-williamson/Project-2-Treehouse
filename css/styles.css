@@ -18,7 +18,7 @@
 }
 
 /**********************************
-body and main div sizing
+body and main sizing
 ***********************************/
 
 body {
@@ -26,8 +26,6 @@ body {
   margin: 0;
   background-color: #e6e6e6;
   }
-
-
 
 
 /**********************************
@@ -69,7 +67,8 @@ header a {
 header p {
   text-align: center;
   font-weight: lighter; 
-  
+  margin: 0 3%; 
+  padding-bottom: 3%;
 }
 
 header img {
@@ -99,10 +98,11 @@ img gallery container styling
 section styling
 ***********************************/
 
-section h2 {
+main h2 {
   text-align: center; 
-  padding-top: 10%;
+  padding: 10% 0;
   font-size: 1.3em; 
+  margin: 0; 
 }
 
 .gallery-div {
@@ -112,13 +112,13 @@ section h2 {
 }
 
 
-section img {
+main img {
   max-height: 100%;
   max-width: 100%;
 
 }
 
-section p {
+main p {
   text-align: center; 
 }
 
